@@ -1,6 +1,5 @@
-<script>
+<script setup>
 import Separator from '../util/Separator.vue';
-
 </script>
 
 <template>

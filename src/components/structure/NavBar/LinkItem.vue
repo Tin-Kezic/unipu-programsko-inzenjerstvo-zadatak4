@@ -1,4 +1,4 @@
-<script>
+<script setup>
     const props = defineProps(['name', 'activeLink'])
 </script>
 

@@ -1,4 +1,4 @@
-<script>
+<script setup>
     import LinkItem from './LinkItem.vue';
     const props = defineProps(['links', 'activeLink', 'linkClick'])
 </script>
