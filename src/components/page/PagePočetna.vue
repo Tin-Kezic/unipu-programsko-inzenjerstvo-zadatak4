@@ -1,10 +1,15 @@
+<script>
+import Separator from '../util/Separator.vue';
+
+</script>
+
 <template>
     <div class="grow flex flex-col gap-4">
         <h1 class="text-indigo-100 text-2xl font-light mt-2">
             Dobro došli na moju web stranicu!
         </h1>
         
-        <hr class="border-indigo-200/50 border rounded-full my-2">
+        <Separator/>
 
         <section class="grid grid-cols-2 items-center text-justify">
             <p>
@@ -15,7 +20,7 @@
                 class="h-16 w-full object-contain">
         </section>
         
-        <hr class="border-indigo-200/50 border rounded-full my-2">
+        <Separator/>
 
         <section class="text-justify">
             Zadatak nam je bio da za određenu temu, uz pomoć različitih alata za izradu 
@@ -25,7 +30,7 @@
             vlastite slike, grafike i zvukove kojima ćemo predstaviti odabranu temu.
         </section>
         
-        <hr class="border-indigo-200/50 border rounded-full my-2">
+        <Separator/>
 
         <section class="text-justify">
             Svaki uradak ćemo opisati korak po korak, uz detaljan postupak izrade u svakome

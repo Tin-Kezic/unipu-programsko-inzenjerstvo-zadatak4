@@ -8,6 +8,7 @@
     import Header from './components/structure/Header.vue';
     import LinkItem from './components/structure/NavBar/LinkItem.vue'
     import NavBar from './components/structure/NavBar/NavBar.vue';
+import JustifiedTextSection from './components/util/JustifiedTextSection.vue';
 
     const links = [
         { name: "POČETNA", active: true},
@@ -35,14 +36,10 @@
 </script>
 
 <template>
-
-    <div class="fixed w-full h-full flex justify-center poppins text-sm text-indigo-300
-        bg-gradient-to-b from-[#1B1A55] via-[#2B428D] to-[#3B39BB]">
-
+    <JustifiedTextSection>
         <div style="background-image: url('./src/assets/images/pattern.jpg'); 
             background-size: 200px;"
             class="fixed w-full h-full bg-repeat opacity-[3%] -z-10"></div>
-
         <div class="bg-[#535C91]/25 border-x border-[#9290C3]/10 w-[700px] max-w-[700px] shadow-lg
             flex flex-col justify-between px-8 gap-4 overflow-auto">
             
@@ -51,5 +48,5 @@
             <component :is="page" />
             <Footer></Footer>
         </div>
-    </div>
+    </JustifiedTextSection>
 </template>

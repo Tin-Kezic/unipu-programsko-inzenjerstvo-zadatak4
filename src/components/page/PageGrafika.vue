@@ -1,11 +1,15 @@
+<script>
+import Separator from '../util/Separator.vue';
+
+</script>
+
 
 <template>
     <div class="grow flex flex-col gap-4">
         <h1 class="text-indigo-100 text-2xl text-center font-medium mt-2">
             GRAFIKA
         </h1>
-        
-        <hr class="border-indigo-200/50 border rounded-full my-2">
+        <Separator/>
 
         <section class="grid grid-cols-2 items-center text-justify">
             <p>
@@ -16,14 +20,14 @@
                 class="h-24 w-full object-contain">
         </section>
         
-        <hr class="border-indigo-200/50 border rounded-full my-2">
+        <Separator/>
 
         <section class="flex w-full items-center">
             <img src="../../assets/images/cats.png" alt="figma logo"
                 class="h-64 grow object-contain">
         </section>
 
-        <hr class="border-indigo-200/50 border rounded-full my-2">
+        <Separator/>
 
         <section class="text-justify flex flex-col gap-2">
             Koraci izrade:
